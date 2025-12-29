@@ -1,9 +1,12 @@
 /*******************************************************************************
  * PROJETO: Controlador Principal - Monta-Prato 2026 (Projeto 1)
- * FUNÇÃO: MESTRE (Processamento Central e Interface IHM)
- * VERSÃO: 1.0
+ * 
+ * FUNÇÃO: MESTRE - VERSÃO: 1.0
+ * 
  * DESENVOLVEDOR: Osiris Silva
+ * 
  * CARGO: Técnico em Eletrônica
+ * 
  * DATA: 29/12/2025
  * 
  * HARDWARE: ESP32 CYD (Cheap Yellow Display)
