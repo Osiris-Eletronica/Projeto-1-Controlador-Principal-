@@ -7,7 +7,7 @@
  * 
  * CARGO: Técnico em Eletrônica
  * 
- * DATA: 29/12/2025
+ * DATA: 25/12/2025
  * 
  * HARDWARE: ESP32 CYD (Cheap Yellow Display)
  * - Modelo: ESP32-2432S028R | Driver: ILI9341
