@@ -1,3 +1,23 @@
+/*******************************************************************************
+ * PROJETO: Controlador Principal
+ * VERSÃO: 1.0
+ * DESENVOLVEDOR: Osiris Silva
+ * CARGO: Técnico em Eletrônica
+ * DATA: 25/12/2025
+ * 
+ * HARDWARE: ESP32 CYD (Cheap Yellow Display)
+ * - Modelo: ESP32-2432S028R
+ * - Driver de Vídeo: ILI9341 (TFT 2.8")
+ * - Resolução: 320x240
+ * 
+ * NOTAS TÉCNICAS:
+ * - Configurado via TFT_eSPI (User_Setup.h deve apontar para ILI9341).
+ * - Pinagem padrão CYD mantida para LED RGB e LDR.
+ *******************************************************************************/
+
+
+
+
 #include <Arduino.h>
 #include <TFT_eSPI.h>
 #include <cstdint> 
