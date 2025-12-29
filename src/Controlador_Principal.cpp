@@ -1,22 +1,19 @@
 /*******************************************************************************
- * PROJETO: Controlador Principal
+ * PROJETO: Controlador Principal - Monta-Prato 2026 (Projeto 1)
+ * FUNÇÃO: MESTRE (Processamento Central e Interface IHM)
  * VERSÃO: 1.0
  * DESENVOLVEDOR: Osiris Silva
  * CARGO: Técnico em Eletrônica
- * DATA: 25/12/2025
+ * DATA: 29/12/2025
  * 
  * HARDWARE: ESP32 CYD (Cheap Yellow Display)
- * - Modelo: ESP32-2432S028R
- * - Driver de Vídeo: ILI9341 (TFT 2.8")
+ * - Modelo: ESP32-2432S028R | Driver: ILI9341
  * - Resolução: 320x240
  * 
  * NOTAS TÉCNICAS:
- * - Configurado via TFT_eSPI (User_Setup.h deve apontar para ILI9341).
- * - Pinagem padrão CYD mantida para LED RGB e LDR.
+ * - Configurado via TFT_eSPI (User_Setup.h -> ILI9341).
+ * - Gerencia periféricos externos (Projeto 2 - Receptores de Andar).
  *******************************************************************************/
-
-
-
 
 #include <Arduino.h>
 #include <TFT_eSPI.h>
